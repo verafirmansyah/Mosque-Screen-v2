@@ -2,7 +2,7 @@
   <img src="https://github.com/DilwoarH/Mosque-Screen/raw/master/branding/logo-full.png" alt="Mosque Screen Logo" />
 </p>
 
-[![Build Status](https://travis-ci.org/Mosque-Screens/Mosque-Screen-v2.svg?branch=master)](https://travis-ci.org/Mosque-Screens/Mosque-Screen-v2)
+[![Build Status](https://travis-ci.com/Mosque-Screens/Mosque-Screen-v2.svg?branch=master)](https://travis-ci.com/Mosque-Screens/Mosque-Screen-v2)
 
 # Mosque Screens
 
