@@ -21,6 +21,7 @@ jobs:
       run: php artisan migrate
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
+        APP_KEY: base64:k7iTOShVeNEaf4ndHK56nBepoUv3ScROq/aDNR/kyfU=
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: vendor/bin/phpunit
