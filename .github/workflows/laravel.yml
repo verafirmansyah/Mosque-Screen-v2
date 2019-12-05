@@ -19,6 +19,8 @@ jobs:
         touch database/database.sqlite
     - name: Migrate DB
       run: php artisan migrate
+    - name: Run PHP Unit tests
+      run: vendor/bin/phpunit
     - name: Upgrade Chrome Driver
       run: php artisan dusk:chrome-driver
     - name: Start Chrome Driver
