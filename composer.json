@@ -58,12 +58,6 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ],
-        "test" : [
-            "php artisan dusk:chrome-driver",
-            "./vendor/laravel/dusk/bin/chromedriver-linux > /dev/null 2>&1 &",
-            "php artisan serve && php artisan dusk"
-
         ]
     }
 }
