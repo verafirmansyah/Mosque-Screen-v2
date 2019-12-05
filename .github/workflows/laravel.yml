@@ -25,3 +25,9 @@ jobs:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: vendor/bin/phpunit
+    - name: Run dusk tests
+      run: |
+        php artisan dusk:chrome-driver
+        ./vendor/laravel/dusk/bin/chromedriver-linux > /dev/null 2>&1 &
+        php artisan serve > /dev/null 2>&1 &
+        php artisan dusk
